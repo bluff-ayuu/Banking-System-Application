@@ -5,8 +5,8 @@ from datetime import datetime
 
 db = mysql.connector.connect(
     host="localhost",
-    user="root",
-    password="root",
+    user="root", #enter your username
+    password="root", #enter your password
 )
 cursor = db.cursor()
 
